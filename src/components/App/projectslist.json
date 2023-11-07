@@ -1,0 +1,70 @@
+[
+    {
+        "title": "Runescape project",
+        "img": "https://picsum.photos/400/200",
+        "excerpt": "This project was made to promote the mobile game \"Runescape\", this project was fully made in the Laravel framework. It supports multiple languages, can register users has an email system setup. It has a donation page via mollie (set as a test version so it's free). But most importantly of all it has a fully custom backoffice with a complete CMS for users, articles, banners, other pages API key switcher for newsletters and a reading mode for non-public donations.",
+        "body": [
+            "This project was made to promote the mobile game \"Runescape\".", "this project was fully made in the Laravel framework. It supports multiple languages, can register users, has an email system setup. It has a donation page via mollie (set as a test version so it's free).", "But most importantly of all it has a fully custom backoffice with a complete CMS for users, articles, banners, other pages API key switcher for newsletters and a reading mode for non-public donations.",
+            "People who donate receive a thank you mail with variables according to their data",
+            "You can find a live demo here:"
+        ],
+        "credentials": null,
+        "body2": null,
+        "link": "http://project.kodev.be",
+        "githubLink": null,
+        "gallery": [
+            {"original": "https://picsum.photos/400/200", "thumbnail":"https://picsum.photos/400/200"},
+            {"original": "https://picsum.photos/400/200", "thumbnail":"https://picsum.photos/400/200"},
+            {"original": "https://picsum.photos/400/200", "thumbnail":"https://picsum.photos/400/200"}
+        ]
+    },
+    {
+        "title": "Surveillance camera",
+        "img": "https://picsum.photos/400/200",
+        "excerpt": "This project consists of a security camera made from a Raspberry Pi that will send a push notification with a picture when motion is detected. After detecting motion, a recording will be made and uploaded to Firebase. The dashboard can be used to enable/disable the camera, view the timeline of recordings, and change the settings. LEDs can be connected to indicate the state of the camera and recording.",
+        "body": [
+            "This project consists of a security camera that will send a push notification with a picture when motion is detected.", "After detecting motion, a recording will be made and uploaded to Firebase. The dashboard can be used to enable/disable the camera, view the timeline of recordings, and change the camera settings.", "Clips are saved for a certain amount of time, after which they will be removed via a cron job (default is 7 days). You can however lock videos if you want too", "LEDs can be connected to indicate the state of the camera and recording.",
+            "This project includes a default dashboard connected to a Firebase project for demonstration purposes.",
+            "The Raspberry Pi has since been disconnected for obvious privacy concerns. But you can visit the demo listed below to check out the dashboard, the credentials are as follows:"
+        ],
+        "credentials": ["user@iot.com", "password"],
+        "body2":["You can follow the github link below for further instructions on how to make your own surveillance camera:"],
+        "link": "https://iot-werkstuk.web.app",
+        "githubLink": "https://github.com/kobedevi/surveillance-cam#Installation",
+        "gallery": [
+            {"original": "https://picsum.photos/400/200", "thumbnail":"https://picsum.photos/400/200"},
+            {"original": "https://picsum.photos/400/200", "thumbnail":"https://picsum.photos/400/200"},
+            {"original": "https://picsum.photos/400/200", "thumbnail":"https://picsum.photos/400/200"}
+        ]
+    },
+    {
+        "title": "test project",
+        "img": "https://picsum.photos/400/200",
+        "body": "Lorem ipsum"
+    },
+    {
+        "title": "test project",
+        "img": "https://picsum.photos/400/200",
+        "body": "Lorem ipsum"
+    },
+    {
+        "title": "test project",
+        "img": "https://picsum.photos/400/200",
+        "body": "Lorem ipsum"
+    },
+    {
+        "title": "test project",
+        "img": "https://picsum.photos/400/200",
+        "body": "Lorem ipsum"
+    },
+    {
+        "title": "test project",
+        "img": "https://picsum.photos/400/200",
+        "body": "Lorem ipsum"
+    },
+    {
+        "title": "test project 2",
+        "img": "https://picsum.photos/400/200",
+        "body": "Lorem ipsumer"
+    }
+]
