@@ -5,7 +5,6 @@ const PossibleRoutes = Object.freeze({
     Projects: "/projects",
     ProjectDetail: "/projects/:id",
     Contact: "/contact",
-    
   });
   
   // replaces : values with values from object
