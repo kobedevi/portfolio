@@ -1,8 +1,38 @@
 [
     {
-        "title": "Runescape project",
-        "img": "https://picsum.photos/400/200",
+        "title": "Pc builder",
+        "img": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699457523/images/pcbuilder/zd3p6oflakvokkjx64oz.png",
+        "excerpt": "For my bachelor's project I wanted to do something with my interest in tech hardware. After researching I decided to make a PC builder. The goal of the project is to make pc building way more accessible even for less tech orientated users to still be able to pick and choose computer parts and thus have an easy way to \"build\" a computer.",
+        "stack": ["MySQL", "Express", "React", "NodeJS", "ThreeJS", "Express-validator", "Axios", "Bootstrap"],
+        "body": [
+            "For my bachelor's project I wanted to do something with my interest in tech hardware.",
+            "After researching I decided to make a PC builder. The goal of the project is to make pc building way more accessible even for less tech orientated users to still be able to pick and choose computer parts and thus have an easy way to \"build\" a computer.", 
+            "Users are able to pick their parts for their pc, the part picker will guide them through what parts fit together and what parts won't. It gives certain warnings where compatibility may or may not be an issue but there is still something to be aware of. The user gets a live overview of what parts they chose and their respective specifications, what the current for the entire price is and in the end they get a 3D preview of their build to see how much room they have and last but not least They get a URL to their build they can share.", "If users still feel uncomfortable making their own computer, they can check out community builds.",
+            "",
+            "",
+            "You can register and login as a user, you then get the availability to easily see only your own builds and get the option to edit them.",
+            "A huge challenge with this project was that there is no consistent open data for computer parts to compare compatibility between parts, therefore I had to create my own version.",
+            "If you login as an admin you get access to a backoffice with an entire CRUD system for computer parts. When creating or editing a new part there is a vast list of variables that change if a part is compatible or not. Furthermore there is also a superAdmin role, this role is the same as an admin; the only difference is that superAdmins also have access to a crud system for users."
+        ],
+        "credentials": ["Note: The server often has a cold start so it may take a while to load data."],
+        "body2": null,
+        "link": "https://pcbuilder-vtvc.onrender.com",
+        "githubLink": "https://github.com/kobedevi/PC-builder.git",
+        "gallery": [
+            {"original": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699457523/images/pcbuilder/zd3p6oflakvokkjx64oz.png", "thumbnail":"https://res.cloudinary.com/de6qoh9wb/image/upload/v1699457523/images/pcbuilder/zd3p6oflakvokkjx64oz.png"},
+            {"original": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699459583/images/pcbuilder/msc21gwp2ejczjw2psjt.png", "thumbnail":"https://res.cloudinary.com/de6qoh9wb/image/upload/v1699459583/images/pcbuilder/msc21gwp2ejczjw2psjt.png"},
+            {"original": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699456870/images/pcbuilder/plllpxnijj9f6wkc34qm.png", "thumbnail":"https://res.cloudinary.com/de6qoh9wb/image/upload/v1699456870/images/pcbuilder/plllpxnijj9f6wkc34qm.png"},
+            {"original": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699460451/images/pcbuilder/wtsgfvug80kgnzmq7ltw.png", "thumbnail":"https://res.cloudinary.com/de6qoh9wb/image/upload/v1699460451/images/pcbuilder/wtsgfvug80kgnzmq7ltw.png"},
+            {"original": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699459880/images/pcbuilder/dil8hhyw8whaf73btuak.png", "thumbnail":"https://res.cloudinary.com/de6qoh9wb/image/upload/v1699459880/images/pcbuilder/dil8hhyw8whaf73btuak.png"},
+            {"original": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699460181/images/pcbuilder/fu4js73taumnjbbtv7rx.png", "thumbnail":"https://res.cloudinary.com/de6qoh9wb/image/upload/v1699460181/images/pcbuilder/fu4js73taumnjbbtv7rx.png"},
+            {"original": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699456573/images/pcbuilder/nq3ojp4xu4xefk6hsloz.png", "thumbnail":"https://res.cloudinary.com/de6qoh9wb/image/upload/v1699456573/images/pcbuilder/nq3ojp4xu4xefk6hsloz.png"}
+        ]
+    },
+    {
+        "title": "Runescape Mobile promotion",
+        "img": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699464680/images/rs/cxvoye6fyp2xqn4rtp1u.png",
         "excerpt": "This project was made to promote the mobile game \"Runescape\", this project was fully made in the Laravel framework. It supports multiple languages, can register users has an email system setup. It has a donation page via mollie (set as a test version so it's free). But most importantly of all it has a fully custom backoffice with a complete CMS for users, articles, banners, other pages API key switcher for newsletters and a reading mode for non-public donations.",
+        "stack": ["PHP", "Laravel", "Blade"],
         "body": [
             "This project was made to promote the mobile game \"Runescape\".", "this project was fully made in the Laravel framework. It supports multiple languages, can register users, has an email system setup. It has a donation page via mollie (set as a test version so it's free).", "But most importantly of all it has a fully custom backoffice with a complete CMS for users, articles, banners, other pages API key switcher for newsletters and a reading mode for non-public donations.",
             "People who donate receive a thank you mail with variables according to their data",
@@ -13,15 +43,22 @@
         "link": "http://project.kodev.be",
         "githubLink": null,
         "gallery": [
-            {"original": "https://picsum.photos/400/200", "thumbnail":"https://picsum.photos/400/200"},
-            {"original": "https://picsum.photos/400/200", "thumbnail":"https://picsum.photos/400/200"},
-            {"original": "https://picsum.photos/400/200", "thumbnail":"https://picsum.photos/400/200"}
+            {"original": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699464680/images/rs/cxvoye6fyp2xqn4rtp1u.png", "thumbnail":"https://res.cloudinary.com/de6qoh9wb/image/upload/v1699464680/images/rs/cxvoye6fyp2xqn4rtp1u.png"},
+            {"original": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699465416/images/rs/diujmvfbrej6yb7vh3ym.png", "thumbnail":"https://res.cloudinary.com/de6qoh9wb/image/upload/v1699465416/images/rs/diujmvfbrej6yb7vh3ym.png"},
+            {"original": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699465578/images/rs/hof1uj71wc5inr8fe80k.png", "thumbnail":"https://res.cloudinary.com/de6qoh9wb/image/upload/v1699465578/images/rs/hof1uj71wc5inr8fe80k.png"},
+            {"original": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699465669/images/rs/vah2465gw3vszblum5ui.png", "thumbnail":"https://res.cloudinary.com/de6qoh9wb/image/upload/v1699465669/images/rs/vah2465gw3vszblum5ui.png"},
+            {"original": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699471500/images/rs/q6frwccndhe2bnwft2ah.png", "thumbnail":"https://res.cloudinary.com/de6qoh9wb/image/upload/v1699471500/images/rs/q6frwccndhe2bnwft2ah.png"},
+            {"original": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699465828/images/rs/v5pobhyilf8rjtsvjt7h.png", "thumbnail":"https://res.cloudinary.com/de6qoh9wb/image/upload/v1699465828/images/rs/v5pobhyilf8rjtsvjt7h.png"},
+            {"original": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699470192/images/rs/u5ntd6sfvvruf2nrs63q.png", "thumbnail":"https://res.cloudinary.com/de6qoh9wb/image/upload/v1699470192/images/rs/u5ntd6sfvvruf2nrs63q.png"},
+            {"original": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699470055/images/rs/rv1llxa0ysaimyn1p0eg.png", "thumbnail":"https://res.cloudinary.com/de6qoh9wb/image/upload/v1699470055/images/rs/rv1llxa0ysaimyn1p0eg.png"},
+            {"original": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699470808/images/rs/ryjywfjs8g9lw5x6jlaa.png", "thumbnail":"https://res.cloudinary.com/de6qoh9wb/image/upload/v1699470808/images/rs/ryjywfjs8g9lw5x6jlaa.png"}
         ]
     },
     {
         "title": "Surveillance camera",
-        "img": "https://picsum.photos/400/200",
+        "img": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699472519/images/Surveillance/enp4yszfyeanuer5zggh.png",
         "excerpt": "This project consists of a security camera made from a Raspberry Pi that will send a push notification with a picture when motion is detected. After detecting motion, a recording will be made and uploaded to Firebase. The dashboard can be used to enable/disable the camera, view the timeline of recordings, and change the settings. LEDs can be connected to indicate the state of the camera and recording.",
+        "stack": ["Python", "OpenCV", "Firebase", "React", "Cron"],
         "body": [
             "This project consists of a security camera that will send a push notification with a picture when motion is detected.", "After detecting motion, a recording will be made and uploaded to Firebase. The dashboard can be used to enable/disable the camera, view the timeline of recordings, and change the camera settings.", "Clips are saved for a certain amount of time, after which they will be removed via a cron job (default is 7 days). You can however lock videos if you want too", "LEDs can be connected to indicate the state of the camera and recording.",
             "This project includes a default dashboard connected to a Firebase project for demonstration purposes.",
@@ -32,39 +69,73 @@
         "link": "https://iot-werkstuk.web.app",
         "githubLink": "https://github.com/kobedevi/surveillance-cam#Installation",
         "gallery": [
-            {"original": "https://picsum.photos/400/200", "thumbnail":"https://picsum.photos/400/200"},
-            {"original": "https://picsum.photos/400/200", "thumbnail":"https://picsum.photos/400/200"},
-            {"original": "https://picsum.photos/400/200", "thumbnail":"https://picsum.photos/400/200"}
+            {"original": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699472519/images/Surveillance/enp4yszfyeanuer5zggh.png", "thumbnail":"https://res.cloudinary.com/de6qoh9wb/image/upload/v1699472519/images/Surveillance/enp4yszfyeanuer5zggh.png", "embedUrl": "https://www.youtube.com/embed/blITzTevAjU?si=tJtLYC4tbQrRRrF2"},
+            {"original": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699472864/images/Surveillance/yqgqpmdnfvg9vk2g7nyp.png", "thumbnail":"https://res.cloudinary.com/de6qoh9wb/image/upload/v1699472864/images/Surveillance/yqgqpmdnfvg9vk2g7nyp.png", "embedUrl": "https://www.youtube.com/embed/z5Ts6NQ8LjI?si=NutRDeHcmNlcmEKx"},
+            {"original": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699473019/images/Surveillance/dxjpbdmatkhtrzwsxsbi.png", "thumbnail":"https://res.cloudinary.com/de6qoh9wb/image/upload/v1699473019/images/Surveillance/dxjpbdmatkhtrzwsxsbi.png"},
+            {"original": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699473092/images/Surveillance/btk7x7kwmeq1obmgfyyv.png", "thumbnail":"https://res.cloudinary.com/de6qoh9wb/image/upload/v1699473092/images/Surveillance/btk7x7kwmeq1obmgfyyv.png"}
         ]
     },
     {
-        "title": "test project",
-        "img": "https://picsum.photos/400/200",
-        "body": "Lorem ipsum"
+        "title": "3D Portfolio",
+        "img": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699473902/images/XR/z6t8etgv7yvkw0zpvfu2.png",
+        "excerpt": "Here I started messing around with React-three-fiber as I set the goal to make a small gamified 3D portfolio site where you can drive around in a donut-truck and score points by shooting donuts in a donut-box, there is a menu to change the controls from an azerty keyboard to qwerty and to toggle sound. There are some Physics enabled objects to mess around with and some billboards to some of my projects",
+        "stack": ["React", "ThreeJS", "Zustand"],
+        "body": [
+            "Here I started messing around with React-three-fiber as I set the goal to make a small gamified 3D portfolio site where you can drive around in a donut-truck and score points by shooting donuts in a donut-box, there is a menu to change the controls from an azerty keyboard to qwerty and to toggle sound.", "There are some Physics enabled objects to mess around with and some billboards to some of my projects."
+        ],
+        "credentials": ["Note: character speed is determined on the refresh rate of your monitor and computer hardware"],
+        "body2":null,
+        "link": null,
+        "githubLink": "https://github.com/kobedevi/XR-FPP",
+        "gallery": [
+            {"original": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699473710/images/XR/yjacizmgmk2sxg3zfhdk.gif", "thumbnail":"https://res.cloudinary.com/de6qoh9wb/image/upload/v1699473902/images/XR/z6t8etgv7yvkw0zpvfu2.png"},
+            {"original": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699474420/images/XR/h1guazrppg6gnulpqvly.gif", "thumbnail":"https://res.cloudinary.com/de6qoh9wb/image/upload/v1699474516/images/XR/oyxxip1ns0tmt5kiutfs.png"},
+            {"original": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699475197/images/XR/kxytsa0zuziznripuqch.gif", "thumbnail":"https://res.cloudinary.com/de6qoh9wb/image/upload/v1699475697/images/XR/qnvy1rjf3pv8av09aswy.png"},
+            {"original": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699473710/images/XR/yjacizmgmk2sxg3zfhdk.gif", "thumbnail":"https://res.cloudinary.com/de6qoh9wb/image/upload/v1699474516/images/XR/oyxxip1ns0tmt5kiutfs.png", "embedUrl": "https://www.youtube.com/embed/_G_CHxPwiEY?si=7lVIX89nznyPX_IM"}
+        ]
     },
     {
-        "title": "test project",
-        "img": "https://picsum.photos/400/200",
-        "body": "Lorem ipsum"
+        "title": "Paranormax website en webApp",
+        "img": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699476307/images/Paranormax/bmecgpk38rndlqzlpzad.png",
+        "excerpt": "Paranormax was a concept company for this project, they're a consultancy agency for ghost hunters. The idea was to build a promotional website via CraftCMS and an app. On the website you could find some basic about us data, success stories, partners and a contact page last but not least there is a VIP section which gives you access to exclusive content. You can access the VIP section when you create an account and login. As soon as you make a payment on the VIP page (runs as a test version so it's free), your status will update and you get access to the exclusive content. Furthermore you can update your profile to have a profile picture and update your password. The app is connected to CraftCMS via their API which runs on GraphQL. In this app it is possible to login with the same accounts or register a new one. Admins can make you a ghost hunter/medium so you can actively request pending missions (after the mission is approved by an admin). The creator of an assignment can then accept an offer from a queue of ghost hunters after which the creator of the mission can say if the mission was a success or a failure",
+        "stack": ["PHP", "Craft", "GraphQL", "React"],
+        "body": [
+            "Paranormax was a concept company for this project, they're a consultancy agency for ghost hunters. The idea was to build a promotional website via CraftCMS and an app.","On the website you could find some basic about us data, success stories, partners and a contact page last but not least there is a VIP section which gives you access to exclusive content. You can access the VIP section when you create an account and login. As soon as you make a payment on the VIP page (runs as a test version so it's free), your status will update and you get access to the exclusive content.", "Furthermore you can update your profile to have a profile picture and update your password.", " The app part of this project is connected to CraftCMS via their API which runs on GraphQL. In this app it is possible to login with the same accounts or register a new one. Admins can make you a ghost hunter/medium so you can actively request pending missions (after the mission is approved by an admin). The creator of an assignment can then accept an offer from a queue of ghost hunters after which the creator of the mission can say if the mission was a success or a failure."
+        ],
+        "credentials": null,
+        "body2":null,
+        "link": null,
+        "githubLink": "https://github.com/kobedevi/paranormax",
+        "gallery": [
+            {"original": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699476307/images/Paranormax/bmecgpk38rndlqzlpzad.png", "thumbnail":"https://res.cloudinary.com/de6qoh9wb/image/upload/v1699476307/images/Paranormax/bmecgpk38rndlqzlpzad.png"},
+            {"original": "https://vimeo.com/739739037", "thumbnail":"https://res.cloudinary.com/de6qoh9wb/image/upload/v1699476172/images/Paranormax/mewdnbcp9jth0fmvyzfb.png", "embedUrl":"https://player.vimeo.com/video/739739037?h=48b1f507e9"},
+            {"original": "https://vimeo.com/739739857", "thumbnail":"https://res.cloudinary.com/de6qoh9wb/image/upload/v1699476064/images/Paranormax/v72rddpbuyktiby0fbxf.png", "embedUrl": "https://player.vimeo.com/video/739739857"},
+            {"original": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699476452/images/Paranormax/bkjvgrjjpzhvyoc3qrew.png", "thumbnail":"https://res.cloudinary.com/de6qoh9wb/image/upload/v1699476452/images/Paranormax/bkjvgrjjpzhvyoc3qrew.png"},
+            {"original": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699476500/images/Paranormax/h7cqxtbnr0l9yac45bip.png", "thumbnail":"https://res.cloudinary.com/de6qoh9wb/image/upload/v1699476500/images/Paranormax/h7cqxtbnr0l9yac45bip.png"},
+            {"original": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699476656/images/Paranormax/ajraqwgl39yyvr6ztcf5.png", "thumbnail":"https://res.cloudinary.com/de6qoh9wb/image/upload/v1699476656/images/Paranormax/ajraqwgl39yyvr6ztcf5.png"},
+            {"original": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699476700/images/Paranormax/hpckkjadqykboddfz6je.png", "thumbnail":"https://res.cloudinary.com/de6qoh9wb/image/upload/v1699476700/images/Paranormax/hpckkjadqykboddfz6je.png"}
+        ]
     },
     {
-        "title": "test project",
-        "img": "https://picsum.photos/400/200",
-        "body": "Lorem ipsum"
-    },
-    {
-        "title": "test project",
-        "img": "https://picsum.photos/400/200",
-        "body": "Lorem ipsum"
-    },
-    {
-        "title": "test project",
-        "img": "https://picsum.photos/400/200",
-        "body": "Lorem ipsum"
-    },
-    {
-        "title": "test project 2",
-        "img": "https://picsum.photos/400/200",
-        "body": "Lorem ipsumer"
+        "title": "MovieDB",
+        "img": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699479556/images/moviedb/ev4svuku8afukzhmnwlv.png",
+        "excerpt": "MovieDB was my first proper project in React, it does what is says on the tin. It's a database for movies. When you login you get a paginated overview of all the movies stored in the database, you can filter these through title and like/dislike them. When you go to a detail page of a movie you can leave a review behind and see more specific details such as the runtime, the director and the release date. You can also go to another page where you can get an overview of movies you liked. There is also a Director's page where you get a list of directors and you can get an overview of all the movies made by director X. Then you can also change your userName as a regular user. When you login as an admin you get the same abilities but there's a crud system for everything. This way you can add/edit and delete movies, reviews, directors and users.",
+        "stack": ["MongoDB", "Express", "React", "NodeJS", "Mongoose"],
+        "body": [
+            "MovieDB was my first proper project in React, it does what is says on the tin. It's a database for movies."," When you login you get a paginated overview of all the movies stored in the database, you can filter these through title and like/dislike them. When you go to a detail page of a movie you can leave a review behind and see more specific details such as the runtime, the director and the release date.", "You can also go to another page where you can get an overview of movies you liked. There is also a Director's page where you get a list of directors and you can get an overview of all the movies made by director X. Then you can also change your userName as a regular user. When you login as an admin you get the same abilities but there's a crud system for everything. This way you can add/edit and delete movies, reviews, directors and users.", "Listed below are credentials to test the platform as a user:"
+        ],
+        "credentials": ["portfolio@test.com", "qwerty"],
+        "body2":null,
+        "link": "https://moviedb-cwn4.onrender.com",
+        "githubLink": "https://github.com/kobedevi/moviedb",
+        "gallery": [
+            {"original": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699479556/images/moviedb/ev4svuku8afukzhmnwlv.png", "thumbnail":"https://res.cloudinary.com/de6qoh9wb/image/upload/v1699479556/images/moviedb/ev4svuku8afukzhmnwlv.png"},
+            {"original": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699479769/images/moviedb/v6agtgmnoeekcxibzisq.png", "thumbnail":"https://res.cloudinary.com/de6qoh9wb/image/upload/v1699479769/images/moviedb/v6agtgmnoeekcxibzisq.png"},
+            {"original": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699479889/images/moviedb/istnd14u6mboxt68mmex.png", "thumbnail":"https://res.cloudinary.com/de6qoh9wb/image/upload/v1699479889/images/moviedb/istnd14u6mboxt68mmex.png"},
+            {"original": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699479661/images/moviedb/vsqqnbbqw3bicv63wwaz.png", "thumbnail":"https://res.cloudinary.com/de6qoh9wb/image/upload/v1699479661/images/moviedb/vsqqnbbqw3bicv63wwaz.png"},
+            {"original": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699479811/images/moviedb/jsylnlqr6facsagryqph.png", "thumbnail":"https://res.cloudinary.com/de6qoh9wb/image/upload/v1699479811/images/moviedb/jsylnlqr6facsagryqph.png"},
+            {"original": "https://res.cloudinary.com/de6qoh9wb/image/upload/v1699479968/images/moviedb/msuakslvyj7skd15swmj.png", "thumbnail":"https://res.cloudinary.com/de6qoh9wb/image/upload/v1699479968/images/moviedb/msuakslvyj7skd15swmj.png"}
+        ]
     }
+    
 ]

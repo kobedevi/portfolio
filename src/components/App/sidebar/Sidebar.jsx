@@ -46,8 +46,8 @@ const Sidebar = () => {
       </div>
       <div className="social">
           <ul>
-              <li><a href="https://github.com/kobedevi" title="Github"><i class="fab fa-github"></i></a></li>
-              <li><a href="https://linkedin.com/in/kobedev" title="LinkedIn"><i className="fab fa-linkedin-in"></i></a></li>
+              <li><a href="https://github.com/kobedevi" title="Github" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a></li>
+              <li><a href="https://linkedin.com/in/kobedev" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a></li>
           </ul>
       </div>
     </nav>

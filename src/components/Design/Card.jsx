@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import { PossibleRoutes, route } from "../../core/routing"
 import LinesEllipsis from 'react-lines-ellipsis'
 
-const Card = ({title, img, body, projectId}) => {
+const Card = ({title, img, stack, body, projectId}) => {
   return (
     <Link to={route(PossibleRoutes.ProjectDetail, { id: projectId })}>
         <div className="projectCard">
@@ -11,6 +11,7 @@ const Card = ({title, img, body, projectId}) => {
             </div>
             <article>
                 <h3>{title}</h3>
+                {stack ? <span className="tag stack">{stack.join(', ')}</span> : ''}<br/>
                 <p>
                 <LinesEllipsis
                     text={body}

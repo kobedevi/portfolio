@@ -5,7 +5,7 @@ import projectslist from "./projectslist.json"
 const Projects = () => {
   return (
     <section className="splash">
-      <div className="text">
+      <div className="text pr">
           <h2>Projects</h2>
 
           <div id="projectsContainer">
@@ -15,6 +15,7 @@ const Projects = () => {
                   key={index}
                   img={proj.img}
                   title={proj.title}
+                  stack={proj.stack}
                   body={proj.excerpt}
                   projectId={index}
                 />
