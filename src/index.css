@@ -207,7 +207,13 @@ canvas{
 }
 
 .sidenav .logo{
-    text-indent: 0;
+    text-decoration: none;
+    padding: 16px 0;
+    font-size: 1.5rem;
+    color: #08FDD8;
+    font-weight: bolder;
+    width: 100%;
+    text-align: center;
 }
 
 .sidenav ul{
@@ -233,6 +239,11 @@ canvas{
 .sidenav a:hover{
     background: #08FDD8;
     color: #181818;
+}
+
+.sidenav .logo:hover {
+    background: none;
+    color: #08FDD8;
 }
 
 a.active{
@@ -386,6 +397,19 @@ code {
     width: 100%;
     height: 100%;
 }
+
+.skills svg {
+    height: 1.5rem;
+    min-width: 32px;
+}
+
+.skills li {
+    margin: 8px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
 
 @media screen and (max-width: 380px), screen and (max-height: 750px) {
     .splash .text{

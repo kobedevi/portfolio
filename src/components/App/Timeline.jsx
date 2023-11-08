@@ -81,6 +81,48 @@ const Timeline = () => {
                 </ul>
               </div>
             </li>
+          </ul>
+
+          <h2 style={{marginTop:"6rem"}}>Education</h2>
+          <ul className="experience">
+
+            <li>
+              <div>
+                <h3>New Media Development</h3>
+                <span>Arteveldehogeschool, Ghent | 2018 - 2023</span>
+                <span className="tag">Bachelor's degree</span>
+                Professional bachelor's degree in Graphics and Digital
+                media,<br/>specializing in New Media
+                development.<br/>
+                Training to become a full stack web developer
+
+              </div>
+            </li>
+
+            <li>
+              <div>
+                <h3>Elektronica-ICT</h3>
+                <span>Odisee, Ghent | 2017 - 2018</span>
+                Bachelor's degree in everything IT:<br/>
+                (web development, CCNA, system administrator)
+              </div>
+            </li>
+            
+            <li>
+              <div>
+                <h3>Se-n-Se Interactive Multimedia</h3>
+                <span>Don Bosco, Halle | 2016 - 2017</span>
+                specialization year in which the knowledge as a web developer and multimedia was further expanded with PHP, MySQLi, JavaScript, JQuery and 3D modeling (Blender).
+              </div>
+            </li>
+
+            <li>
+              <div>
+                <h3>Multimedia</h3>
+                <span>Don Bosco, Halle | 2010 - 2016</span>
+                High school education in Multimedia, aiming to learn the basics of web development and more in the creative industry.
+              </div>
+            </li>
  
           </ul>
         </div>

@@ -30,7 +30,7 @@ const Sidebar = () => {
   return (
     <>
     <nav id="sidenav" className="sidenav">
-		<div className="logo">Logo</div>
+		  <Link to={PossibleRoutes.Home} className="logo"><div>KD</div></Link>
       	<div className='nav'>
 			<ul>
 			{items.map((item, key) => {
