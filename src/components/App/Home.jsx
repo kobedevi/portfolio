@@ -9,7 +9,7 @@ const Home = () => {
     <main>
       <section className="splash">
           <div>
-              <h1>Hey,<br/>I am <span>Kobe Devillé</span>,<br/>full-stack <span>web developer</span>.</h1>
+              <h1>Hey,<br/>I am <span>Kobe Devillé</span>,<br/>a full-stack <span>web developer</span>.</h1>
               <a href="mailto:kobe.deville@gmail.com" className="btn" target="_blank" rel="noopener noreferrer">Contact me</a>
           </div>
           <div className="blob">
