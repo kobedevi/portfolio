@@ -45,7 +45,6 @@ main {
 }
 
 .timeline .experience>li {
-    /* display: block; */
     position: relative;
     display: flex;
 }
@@ -105,8 +104,6 @@ h3{
     z-index: 2;
     flex-direction: column;
     margin: auto 8%;
-    /* justify-content: center; */
-    /* margin: 0 8% 0 8%; */
     align-items: flex-start;
     animation-name: fadein;
     animation-duration: 1.5s;
@@ -370,6 +367,7 @@ a.active{
 }
 
 .projectContainer a {
+    word-break: all;
     color: #08FDD8;
 }
 
@@ -441,13 +439,20 @@ code {
     }
 }
 
+@media screen and (max-width: 500px) {
+
+    #projectsContainer {
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    }
+
+}
+
 @media screen and (min-width: 380px) and (min-height: 750px) {
 
     .splash .text{
         margin: auto 0;
     }
     .splash.timeline .text .textcontainer{
-        /* justify-content: safe center; */
         margin: auto 0;
         padding: 3rem 0;
     }
