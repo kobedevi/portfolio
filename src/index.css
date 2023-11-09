@@ -410,6 +410,8 @@ code {
 .skills svg {
     height: 1.5rem;
     min-width: 32px;
+    fill: #08FDD8 !important;
+    color: #08FDD8;
 }
 
 .skills li {
