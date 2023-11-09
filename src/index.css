@@ -205,7 +205,7 @@ canvas{
     justify-content: space-between;
     flex-direction: column;
     width: 80px;
-    height: 100vh;
+    height: 100dvh;
     background-color: #181818;
 }
 
