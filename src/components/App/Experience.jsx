@@ -8,7 +8,7 @@ import Mysql from "../Design/svgs/Mysql";
 
 const Experience = () => {
   return (
-    <>
+    <main className="experienceContainer">
 
       <Timeline/>
       <section className="splash half">
@@ -36,7 +36,7 @@ const Experience = () => {
             <p>Hier kan je nog eens mijn <a href="#" target="_blank" title="Linkedin profile">Linkedin</a> pagina bekijken voor meer details</p> */}
         </div>
     </section>
-    </>
+    </main>
   )
 }
 export default Experience

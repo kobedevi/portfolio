@@ -6,7 +6,7 @@ const Home = () => {
     blob();
   })
   return (
-    <>
+    <main>
       <section className="splash">
           <div>
               <h1>Hey,<br/>I am <span>Kobe</span>,<br/>full-stack <span>web developer</span>.</h1>
@@ -16,7 +16,7 @@ const Home = () => {
               <canvas id="lamp-anim" className="lamp-anim" width="100%" height="100%"></canvas>
           </div>
       </section>
-    </>
+    </main>
   )
 }
 export default Home

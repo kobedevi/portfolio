@@ -7,9 +7,7 @@ import "react-image-gallery/styles/css/image-gallery.css";
 
 const ProjectDetail = () => {
 
-  const { id } = useParams();
-  const gallery = projectslist[id].gallery;
-  const videos = projectslist[id].videoLink === !null;
+  const { id } = useParams();  
   const error = projectslist[id] === undefined || projectslist[id] === null;
   
   
@@ -27,14 +25,17 @@ const ProjectDetail = () => {
     );
   };
 
-  gallery.forEach(el => {
-    if(el.hasOwnProperty('embedUrl')) {
-      el.renderItem = renderVideo.bind(this)
-    }
-  });
+  if(!error) {
+    console.log('tests')
+    projectslist[id].gallery.forEach(el => {
+      if(el.hasOwnProperty('embedUrl')) {
+        el.renderItem = renderVideo.bind(this)
+      }
+    });
+  }
 
   return (
-    <>
+    <main>
     {
       error && <ErrorAlert message={'project does not exist'}/>
     }
@@ -73,7 +74,7 @@ const ProjectDetail = () => {
         </section>
       )
     }
-    </>
+    </main>
   )
 }
 export default ProjectDetail
