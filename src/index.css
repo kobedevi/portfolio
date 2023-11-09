@@ -20,7 +20,7 @@ main {
 .splash{
     display: flex;
     background: #1d1d1d;
-    height: 100vh;
+    height: 100dvh;
     overflow-y: auto;
     overflow-x: hidden;
     width: calc(100vw - 80px);
@@ -38,6 +38,10 @@ main {
 .timeline{
     color: white;
     overflow-y: auto;
+}
+
+.timeline .textContainer {
+    margin-right: 20px;
 }
 
 .timeline .experience div {
@@ -191,7 +195,7 @@ canvas{
     top: 0;
     left: 0;
     bottom: 0;
-    height: 100vh;
+    height: 100dvh;
     width: 100%;
     overflow: hidden;
     z-index: 1;
@@ -334,7 +338,7 @@ a.active{
 .project {
     background: #1d1d1d;
     width: calc(100vw - 80px);
-    height: 100vh;
+    height: 100dvh;
     overflow-y: auto;
 }
 
