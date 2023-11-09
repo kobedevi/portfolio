@@ -402,6 +402,11 @@ code {
     height: 100%;
 }
 
+.skills {
+    list-style: none;
+    padding: 0;
+}
+
 .skills svg {
     height: 1.5rem;
     min-width: 32px;
